@@ -45,8 +45,7 @@
     </form>
     <script>
       //USE HTML5 to store values
-      var user = document.querySelector('#user').value;
-      console.log(user);
+      var user = $('#user').val();
       localStorage.setItem("username", user);
       // localStorage.email = $("#email").val(); do we really need to store these...
       // localStorage.pwd = $("#npwd").val();
