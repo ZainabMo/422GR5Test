@@ -90,11 +90,8 @@
         </div>
     </div>
     <script>
-      // document.getElementById("h1").innerHTML = "Welcome, "+localStorage.username +".";
-      // window.addEventListener('storage', function(event) {
-      //   document.getElementById("h1").innerHTML = "Welcome, "+ event.newValue+".";
-      // }, false);
-      document.getElementById("h1").innerHTML = "Welcome, "+localStorage.username +".";
+      var q = new Querystring();
+      var user = q.get("username");
     </script>
     </body>
 </html>
